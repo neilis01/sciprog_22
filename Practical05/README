@@ -1,0 +1,7 @@
+Usescanf.c Asks user for an integer and double input and checks whether the user inputted the correct types of data.
+
+fibonacci.c Calculates and prints the Fibonacci sequence of numbers.  The user inputs how many numbers they desire.
+
+arctan.c Calculates the hyperbolic tangent function for x in [-0.9, 0.9].
+
+Compiler Options : gcc -o "Executable Name" "Filename" -lm
