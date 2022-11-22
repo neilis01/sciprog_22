@@ -1,0 +1,3 @@
+Codes for practical 3 ICHEC Course.
+
+Compilation Instruction : gcc -o "Executable Name" "File Name" -lm
