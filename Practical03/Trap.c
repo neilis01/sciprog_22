@@ -1,8 +1,10 @@
+// Import Statements
 #include <stdio.h>
 #include <math.h>
 
 int main(void){
-
+	
+	// Initialise Variables
 	int N = 12;
 	int i;
 	float a=0.0, b_deg = 60.0;
