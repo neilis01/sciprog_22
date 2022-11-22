@@ -1,8 +1,10 @@
+// Import Statements
 #include <stdio.h>
 
 
 int main(void){
 
+	// Initising variables
 	int n = 5, p = 3, q = 4;
 	double A[n][p], B[q][p], C[n][q];
 
@@ -19,21 +21,21 @@ int main(void){
 		}
 	}
 
-        for(i=0; i<p; i++){
-                for(j=0; j<q; j++){
+    for(i=0; i<p; i++){
+		for(j=0; j<q; j++){
 
 			B[i][j] = i - j;
 
-                }
         }
+    }
 
-        for(i=0; i<n; i++){
-                for(j=0; j<q; j++){
+    for(i=0; i<n; i++){
+		for(j=0; j<q; j++){
 
-                        C[i][j] = 0.0;
+			C[i][j] = 0.0;
 
-                }
         }
+    }
 
 
 

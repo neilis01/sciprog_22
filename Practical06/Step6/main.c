@@ -1,8 +1,10 @@
+// Import Statements
 #include <stdio.h>
 
 
 int main(void){
 
+	// Initialise variables
 	int n = 5, p = 3, q = 4;
 	double A[n][p], B[q][p], C[n][q];
 
@@ -47,7 +49,7 @@ int main(void){
 		}
 	}
 */
-
+	// Calling separate file
 	matmult(n,p,q,A,B,C);
 
 
