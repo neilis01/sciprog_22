@@ -1,15 +1,21 @@
+// Library Imports
 #include <stdio.h>
 #include <math.h>
 
+// Function Definitions
 double arctanh1(const double x, const double delta);
 
 double arctanh2(const double x);
 
 
+// Main
 int main (){
 
+	// Declaration of variables
 	double delta, x;
 
+
+	// User input for Maclaurin Series Precision
 	printf("Enter a precision for the Maclaurin Series\n");
 	scanf("%lf", &delta);
 
@@ -22,6 +28,8 @@ int main (){
 	int j = 0; // Array index
 
 	x = -0.9;
+
+	// While loop used to calculate the values of Tan by two seperate methods.
 
 	while(x <= 0.9 && j < length){
 		
@@ -68,5 +76,5 @@ double arctanh1(const double x, const double delta){
 
 
 double arctanh2(const double x){
-	return ((log(1+x) - log(1-x))/2);
+	return ((log(1+x) - log(1-x))/2); // Given in question
 }

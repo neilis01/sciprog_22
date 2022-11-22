@@ -1,3 +1,4 @@
+// Library Declarations
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,20 +8,25 @@
 void fibonacci(int *a, int *b);
 
 
+// Main Function
 int main(){
 
+	// Declaration of Variables
 	int n, i;
 	int f1 = 1;
 	int f0 = 0;
 
+	// User input
 	printf("Enter a positive integer n\n");
 	scanf("%d", &n);
 
+	// Case where input is negative
 	if(n<1){
 		printf("This number is not Positive");
 		exit(1);
 	}
 
+	// Printing Fibonacci Sequence
 	printf("The fibonacci sequence is :\n");
 	printf("%d, %d, ", f0, f1);
 
