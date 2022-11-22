@@ -1,7 +1,9 @@
+// Library Imports
 #include <stdio.h>
 
 int main(){
 
+	// Intialize Variables
 	int i1 = 10;
 	int i2 = 200;
 
@@ -9,6 +11,7 @@ int main(){
 	float fl2 = 2.22;
 
 
+	// Print Statement
 
 	printf("Two ints %d and %d and two floats %f and %f", i1, i2, fl1, fl2);
 
