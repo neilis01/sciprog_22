@@ -52,7 +52,7 @@ int main(){
 }
 
 
-
+// Performs calculation of the factorial of a number recursively.
 int factorial(int n){
 
 	if(n<0){

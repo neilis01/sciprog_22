@@ -1,3 +1,4 @@
+// Library Imports
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -59,7 +60,7 @@ int main(){
 
 	printarray(a, length);
 
-	freearray(a);
+	freearray(a); // Deallocate the Array
 
-	a = NULL;		
+	a = NULL;		// Make sure it is Deallocated
 }
