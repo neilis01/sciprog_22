@@ -1,0 +1,3 @@
+finde.c calculates a value for the exponential funcrtion at x = 1 using a taylor expansion.  As the polynomial order increases, the rounding error associated can be seen.
+
+DynamicAllocation.c shows how to dynamically allocate memory
